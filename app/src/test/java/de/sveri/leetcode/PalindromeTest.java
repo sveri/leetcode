@@ -8,8 +8,8 @@ public class PalindromeTest {
 
 	@Test
 	void testSimple() throws Exception {
-		assertEquals(true, new Palindrome().isPalindrome(121));
-		assertEquals(false, new Palindrome().isPalindrome(-121));
-		assertEquals(false, new Palindrome().isPalindrome(12215));
+		assertEquals(true, new Palindrome().isPalindromeWithRemainder(121));
+		assertEquals(false, new Palindrome().isPalindromeWithRemainder(-121));
+		assertEquals(false, new Palindrome().isPalindromeWithRemainder(12215));
 	}
 }
