@@ -1,4 +1,4 @@
-package de.sveri.leetcode;
+package de.sveri.leetcode.easy;
 
 import java.util.HashMap;
 
